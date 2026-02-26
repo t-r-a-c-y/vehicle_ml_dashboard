@@ -1,0 +1,26 @@
+# Python & Django specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+local_settings.py
+
+# Database (Keep your data local)
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual Environment (Matches your 'venv' folder)
+venv/
+ENV/
+env/
+
+# Data and Media
+# dummy_data/  <-- Uncomment if you don't want to share the CSV
+media/
+
+# IDE-specific (VS Code)
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
